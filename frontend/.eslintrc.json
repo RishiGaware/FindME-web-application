@@ -1,0 +1,23 @@
+{
+  "env": {
+    "browser": true,  // Specifies that the code is intended to run in a browser environment
+    "es2021": true,   // Enables ES2021 syntax
+    "node": true      // Ensures that `module` and `require` are recognized
+  },
+  "extends": [
+    "eslint:recommended",  // Use the recommended ESLint rules
+    "plugin:react/recommended",  // Use recommended rules for React
+    "plugin:tailwindcss/recommended"  // Add recommended rules for Tailwind CSS
+  ],
+  "parserOptions": {
+    "ecmaVersion": 12,  // Use ECMAScript 2021 features
+    "sourceType": "module"  // Allow import/export statements
+  },
+  "plugins": [
+    "tailwindcss",  // Add Tailwind CSS plugin
+    "react"         // Add React plugin
+  ],
+  "rules": {
+    // Customize rules here
+  }
+}

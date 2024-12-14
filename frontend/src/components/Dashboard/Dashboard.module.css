@@ -1,0 +1,72 @@
+.dashboardContainer {
+    display: flex;
+    height: 100vh;
+    background-color: #f4f4f9;
+  }
+  
+  /* Sidebar Styling */
+  .sidebar {
+    width: 250px;
+    background-color: #2c3e50;
+    color: #ecf0f1;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+  }
+  
+  .logo {
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+    text-align: center;
+  }
+  
+  .navList {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .navItem {
+    color: #ecf0f1;
+    text-decoration: none;
+    padding: 10px;
+    display: block;
+    margin-bottom: 1rem;
+    font-size: 1.2rem;
+    transition: background 0.3s ease;
+  }
+  
+  .navItem:hover {
+    background-color: #34495e;
+  }
+  
+  /* Main Content Styling */
+  .mainContent {
+    flex: 1;
+    padding: 20px;
+    background-color: #ffffff;
+  }
+  
+  .header {
+    background-color: #3498db;
+    color: white;
+    padding: 20px;
+    border-radius: 8px;
+  }
+  
+  .content {
+    margin-top: 20px;
+  }
+  
+  .section {
+    margin-bottom: 20px;
+  }
+  
+  .section h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+  }
+  
+  .section p {
+    font-size: 1rem;
+  }
+  

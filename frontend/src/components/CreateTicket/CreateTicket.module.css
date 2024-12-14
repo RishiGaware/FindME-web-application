@@ -1,0 +1,73 @@
+
+/* .container { 
+    height: 87vh;
+    width: 95vw;
+    margin: 0 0 -8% -6.3%;
+    background: #eeecec;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  } */
+
+  
+  
+  .outer {
+    margin: -10% 0 0 10%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%; /* Ensure it takes full width */
+    max-height: 100%; /* Prevent overflow */
+    
+  }
+  
+  .card {
+    background-color: #ffffff;
+    padding: 25px;
+    border-radius: 8px;
+    border: 0.5px solid rgba(0, 0, 0, 0.265); /* Add border */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.332); 
+  
+    text-align: center;
+    width: 100%;
+    max-width: 400px;
+    margin-top: 20px; /* Space between card and top */
+    margin-bottom: 80px;
+  }
+  
+  .card h1 {
+    margin-bottom: 50px;
+    color: #45a049;
+  }
+  
+  .buttonGroup {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .button {
+    display: inline-block;
+    padding: 12px 24px;
+    border-radius: 6px;
+    text-decoration: none;
+    color: rgb(75, 75, 75);
+    font-size: 16px;
+    font-weight: 500;
+    text-align: center;
+    margin-left: 10px;
+  }
+  
+  .found, .lost,.Match {
+    background-color: #b8c1c2;
+  }
+  
+  .button:hover {
+    background-color: #23c343; /* Darker green on hover */
+  }
+  
+  

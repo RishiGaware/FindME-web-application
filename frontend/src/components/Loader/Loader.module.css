@@ -1,0 +1,14 @@
+/* Loader.css */
+.loader {
+    display: flex;                     /* Use flexbox */
+    justify-content: center;           /* Center horizontally */
+    align-items: center;               /* Center vertically */
+    height: 100vh;                    /* Full height of the viewport */
+    width: 100vw;                     /* Full width of the viewport */
+    background-color: rgba(255, 255, 255, 0.8); /* Optional: semi-transparent background */
+    position: fixed;                   /* Position fixed to cover entire viewport */
+    top: 0;                           /* Align to the top */
+    left: 0;                          /* Align to the left */
+    z-index: 1000;                   /* High z-index to appear above other content */
+  }
+  

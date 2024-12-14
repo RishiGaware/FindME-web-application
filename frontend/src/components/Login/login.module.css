@@ -1,0 +1,44 @@
+.loginBackground {
+    width: 100vw;
+    height: 100vh;
+    background: #ececec;
+}
+
+.centeredContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100vw;
+    background: #ffffff;
+  }
+  
+.container {
+    background: #fcffff;
+}
+
+.inputField {
+    background-color: white; /* Ensure background color is white */
+    border: 1px solid #d1d5db; /* Gray border */
+    color: #1f2937; /* Text color */
+    border-radius: 0.375rem; /* Rounded corners */
+    padding: 0.625rem 0.9375rem; /* Padding */
+  }
+  
+  .inputField:focus {
+    border-color: #2563eb; /* Border color on focus */
+    outline: 2px solid #3b82f6; /* Outline color on focus */
+  }
+  
+  /* Dark mode styles */
+  .darkMode .inputField {
+    background-color: white; /* Ensure background color is white in dark mode */
+    color: #1f2937; /* Text color */
+    border: 1px solid #374151; /* Darker gray border */
+  }
+  
+  .darkMode .inputField:focus {
+    border-color: #3b82f6; /* Border color on focus */
+    outline: 2px solid #2563eb; /* Outline color on focus */
+  }
+  

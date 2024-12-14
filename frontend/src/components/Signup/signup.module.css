@@ -1,0 +1,18 @@
+.loginBackground {
+    width: 100vw;
+    height: 100vh;
+    background: #ececec;
+}
+
+.centeredContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100vw;
+    background: #ffffff;
+  }
+  
+.container {
+    background: #fcffff;
+}

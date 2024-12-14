@@ -1,0 +1,82 @@
+/* Fullscreen container excluding navbar */
+.container { 
+  height: 100vh; /* Set to full viewport height */
+  width: 100vw; /* Set to full viewport width */
+  margin: 0; /* Remove negative margin */
+  background: #fefefe; /* Fallback background color */
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* Center items horizontally */
+  align-items: center; /* Center items vertically */
+  background-image: url('../../assets/images/homebg.png'); /* Set your background image */
+  background-size: cover; /* Cover the entire area */
+  background-position: center; /* Center the background image */
+  background-attachment: fixed; /* Fix background to viewport */
+  overflow-y: auto; /* Enable vertical scrolling */
+}
+
+.sectionContainer {
+  width: 100vw; /* Full width */
+  padding: 50px 0; /* Add padding for space between components */
+}
+
+.outer {
+  margin: 0 10%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%; /* Ensure it takes full width */
+  max-height: 100%; /* Prevent overflow */
+  overflow: auto; /* Allow internal scrolling if needed */
+}
+
+.card {
+  background-color: #ffffff;
+  padding: 25px;
+  border-radius: 8px;
+  border: 0.5px solid rgba(0, 0, 0, 0.265); /* Add border */
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.332); 
+
+  text-align: center;
+  width: 100%;
+  max-width: 400px;
+  margin-top: 20px; /* Space between card and top */
+}
+
+.card h1 {
+  margin-bottom: 50px;
+  color: #45a049;
+  /* background-color: rgb(132, 228, 144); */
+}
+
+.buttonGroup {
+  display: flex;
+  justify-content: space-between;
+}
+
+.button {
+  display: inline-block;
+  padding: 12px 24px;
+  border-radius: 6px;
+  text-decoration: none;
+  color: rgb(75, 75, 75);
+  font-size: 16px;
+  font-weight: 500;
+  text-align: center;
+}
+
+.found, .lost {
+  background-color: #b8c1c2;
+}
+
+.button:hover {
+  background-color: #45a049; /* Darker green on hover */
+}
+.Footer{
+  /* background-color: rgb(90, 176, 229); */
+  /* display: flex;
+  flex-direction: column;
+  justify-content: end;
+  align-items: end; */
+ margin-top: 30%;
+}

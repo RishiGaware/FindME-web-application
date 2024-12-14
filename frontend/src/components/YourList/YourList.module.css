@@ -1,0 +1,110 @@
+body {
+  margin: 0;
+  overflow-x: hidden; /* Only prevent horizontal scrolling */
+  background: #ffffff;
+}
+
+.Container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  padding-top: 60px; /* Adjust to avoid overlapping with Navbar */
+  background-color: rgb(246, 249, 252);
+
+}
+
+
+
+.CreateTicketContainer {
+  margin-top: 200px;
+  margin-left: -10%;
+  padding: 20px;
+  width: 100vw;
+}
+
+.FoundListWrapper, .SliderWrapper {
+  margin-top: 20px;
+  padding: 1rem;
+  background-color: #fff;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+  overflow-x: auto; /* Allow sliders to scroll horizontally */
+  display: flex;
+  justify-content: center;
+}
+
+.Card {
+  min-width: 100vw; /* Adjust card width */
+  max-width: 100vw;
+  overflow-x: hidden; /* Prevent card from exceeding screen */
+  padding: 1rem;
+}
+.subfont{
+  font-size: 25px;
+  padding-left: 10px;
+  color: black;
+  font-family: "Roboto";
+  text-align: left;
+  margin: 20px;
+}
+
+.sliderContainer{
+  width: 100vw;
+  background-color: rgb(246, 249, 252);
+}
+
+
+
+/* === BASE HEADING === */ 
+
+h1 {
+  position: relative;
+  padding: 0;
+  margin: 0;
+  font-family: "Raleway", sans-serif;
+  font-weight: 300;
+  font-size: 40px;
+  color: #080808;
+  -webkit-transition: all 0.4s ease 0s;
+  -o-transition: all 0.4s ease 0s;
+  transition: all 0.4s ease 0s;
+}
+
+h1 span {
+  display: block;
+  font-size: 0.5em;
+  line-height: 1.3;
+}
+h1 em {
+  font-style: normal;
+  font-weight: 600;
+}
+
+/* === HEADING STYLE #1 === */
+.one h1 {
+  text-align: center;
+  text-transform: uppercase;
+  padding-bottom: 5px;
+}
+.one h1:before {
+  width: 28px;
+  height: 5px;
+  display: block;
+  content: "";
+  position: absolute;
+  bottom: 3px;
+  left: 50%;
+  margin-left: -14px;
+  background-color: #b80000;
+}
+.one h1:after {
+  width: 100px;
+  height: 1px;
+  display: block;
+  content: "";
+  position: relative;
+  margin-top: 25px;
+  left: 50%;
+  margin-left: -50px;
+  background-color: #b80000;
+}

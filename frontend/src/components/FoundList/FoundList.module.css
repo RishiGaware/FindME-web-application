@@ -1,0 +1,27 @@
+.cardContainer {
+    max-width: 24rem; 
+  }
+  
+  /* In FoundList.module.css or your existing CSS */
+.FoundListContainer {
+  min-width: 250px; /* Set a minimum width */
+  max-width: 250px; /* Set a maximum width */
+}
+
+  
+  .cardContent {
+    padding-top: 2rem;
+    padding-bottom: 2.5rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    background-color: white;
+    border: 1px solid #e5e7eb; 
+    border-radius: 0.5rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+  }
+.Listcontainer{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+}

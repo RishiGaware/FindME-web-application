@@ -1,0 +1,15 @@
+.matchedContainer {
+    display: flex; /* Use flexbox to arrange children in a row */
+    align-items: center; /* Center items vertically */
+    margin-bottom: 20px; /* Space between matched pairs */
+  }
+  
+  .matchedImageContainer {
+    margin-right: 20px; /* Space between found and lost images */
+  }
+  
+  .matchedImage {
+    max-width: 150px; /* Set a maximum width for images */
+    height: auto; /* Maintain aspect ratio */
+  }
+  

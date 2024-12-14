@@ -1,0 +1,113 @@
+.navbar {
+  position: fixed; /* Fixed positioning */
+  top: 0; /* Stick to the top */
+  left: 0; /* Align to the left */
+  /* padding: 20px; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* background-color: rgba(42, 114, 166, 0.248); */
+  background-color: rgba(42, 114, 166, 0.088);
+  /* background-color: gray; */
+  background-size: cover;
+
+  width: 100%; /* Use 100% width */
+  z-index: 1000; /* Ensure it overlaps other content */
+  
+}
+
+.logo {
+  margin-left: 10%;
+  margin-top: 0;
+  height: 95px;
+}
+
+.navbarMenu {
+  display: flex;
+  list-style: none;
+  gap: 20px;
+  color: #49557e;
+  font-size: 18px;
+}
+
+.navbarMenu a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.navbarRight {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+
+.logoutButton {
+  background: rgba(188, 187, 187, 0); /* Gray background */
+  font-size: 16px;
+  color: #36687b;
+  border: 1px solid rgb(60, 60, 60);
+  padding: 10px 30px;
+  border-radius: 50px;
+  cursor: pointer;
+}
+
+.logoutButton:hover {
+  background-color: #ccd9dd; /* Optional hover effect */
+}
+
+.active {
+  padding-bottom: 2px;
+  border-bottom: 2px solid #1d56a5;
+}
+
+@media (max-width: 1050px) {
+  .logo {
+    width: 140px;
+  }
+
+  .navbarMenu {
+    gap: 20px;
+    font-size: 17px;
+  }
+
+  .navbarRight {
+    gap: 30px;
+  }
+
+  .navbarRight .logoutButton {
+    padding: 8px 25px;
+  }
+}
+
+@media (max-width: 900px) {
+  .logo {
+    width: 120px;
+  }
+
+  .navbarMenu {
+    gap: 15px;
+    font-size: 16px;
+  }
+
+  .navbarRight {
+    gap: 20px;
+  }
+
+  .navbarRight .logoutButton {
+    padding: 7px 20px;
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 750px) {
+  .navbarMenu {
+    padding: 20px 0;
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 550px) {
+  .navbarMenu {
+    display: none; /* Optionally hide on small screens */
+  }
+}
